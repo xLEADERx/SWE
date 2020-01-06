@@ -2,7 +2,7 @@ import os
 import subprocess as sb
 from sys import platform as _platform
 
-# This Simple code that arranges a Directory in a Sub-directories with all same type files in sorted format.
+# This Simple code arranges a Directory with a Sub-directories with all same files in sorted format.
 # INPUT: A valid dir path to be arranged.
 
 
