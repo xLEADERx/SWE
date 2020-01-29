@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TouchType</title>
+</head>
+
+<body bgcolor='#262525' onclick="checkfocus()" onload="getword()">
+    <tag autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+    <dir id='root'>
+        <dir id='stats1'>
+            <table id='stats' align="center">
+                <tr>
+                    <td>Speed:</td>
+                    <td>
+                        <h1 id='wpa'>0</h1>
+                    </td>
+                    <td>Error:</td>
+                    <td>
+                        <h1 id='errors'>0</h1>
+                    </td>
+                    <td>Score:</td>
+                    <td>
+                        <h1 id='score'>0</h1>
+                    </td>
+                </tr>
+
+
+            </table>
+        </dir>
+        <div id='type' onclick="setfocus()">
+
+            <h2 id='t2'></h2>
+
+        </div>
+    </dir>
+    <input type="text/hidden" size="40" onkeypress="getCode(event)" id='myInput'>
+</body>
+<script src="script.js"></script>
+
+</html>
